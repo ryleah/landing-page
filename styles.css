@@ -1,1 +1,136 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
 
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .section-one, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    border: 2px solid red;
+    padding: 0 15%;
+}
+
+.header-logo {
+    flex: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 12px;
+    border: 2px solid green;
+}
+
+ul {
+    list-style-type: none;
+    flex: auto;
+    display: flex;
+}
+
+.header-links {
+    flex: 1;
+    align-self: center;
+    text-align: right;
+    justify-content: right;
+    border: 2px solid blue;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.section-one .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text, .header-links {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+button {
+    color: #3882f6;
+}
+
+.section-two {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.information-cards {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.section-three {
+    background-color: #E5e7eb;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: visible;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 10;
+    font-style: italic;
+    margin: auto;
+    padding-top: 48px;
+    width: 60%;
+    flex: 1;
+    text-align: center;
+}
+
+.quote-source {
+    font-weight: 800;
+    justify-self: center;
+    width: 60%;
+    margin: auto;
+    flex: 1;
+    text-align: right;
+    padding-bottom: 48px;
+}
+
+.footer {
+    color: #F9FAF8;
+}
