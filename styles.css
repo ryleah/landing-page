@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -25,7 +25,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    border: 2px solid red;
     padding: 0 15%;
 }
 
@@ -34,7 +33,6 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     margin: 12px;
-    border: 2px solid green;
 }
 
 ul {
@@ -48,7 +46,6 @@ ul {
     align-self: center;
     text-align: right;
     justify-content: right;
-    border: 2px solid blue;
     gap: 24px;
 }
 
@@ -72,7 +69,6 @@ a {
 }
 
 .section-one .left {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     margin: 1rem;
@@ -97,18 +93,20 @@ a {
 button {
     background-color: #3882f6;
     color: white;
-    font-size: 16px; 
+    font-size: 18px; 
     border-radius: 10px;
+    border: 0px;
 }
 
 .section-one .right{
-    border: 1px solid red;
     margin: 16px;
 }
-/* 
+
 .section-two {
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .information {
@@ -116,7 +114,7 @@ button {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin: 12px 0;
+    margin: 12px;
 }
 
 .information-cards {
@@ -126,7 +124,7 @@ button {
     justify-content: center;
     padding-bottom: 48px;
 }
-
+/*
 .section-three {
     background-color: #E5e7eb;
     display: flex;
